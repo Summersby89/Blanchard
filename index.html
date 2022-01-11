@@ -1800,40 +1800,43 @@
       </div>
     </section>
     <section class="contacts">
+      <div class="container">
+        <h2 class="subheading contacts__subheading">Контакты</h2>
+      </div>
       <div class="contacts__content">
-        <div class="contacts__left"></div>
+        <div class="contacts__left">
+          <h3 class="text-reset prime-subheading contacts__subheading-shopname">Шоурум №4</h3>
+          <address class="prime-text contacts__address">Леонтьевский переулок, дом 5/1</address>
+          <h3 class="text-reset prime-subheading weight-normal contacts__callback-heading">Заказать обратный звонок</h3>
+          <form class="contacts__form" name="form" action="/mail.php" method="post">
+            <div class="contacts__form-elem">
+              <input class="int-reset contacts__input" type="text" name="name" id="contacts__input-name"
+                placeholder="Имя*" data-validate-field="name">
+              <label class="visually-hidden" for="contacts__input-name">Имя</label>
+            </div>
+            <div class="contacts__form-elem">
+              <input class="int-reset contacts__input" type="tel" name="phone" id="contacts__input-phone"
+                placeholder="Телефон*" data-validate-field="tel" inputmode="text">
+              <label class="visually-hidden" for="contacts__input-phone">Телефон</label>
+            </div>
+            <button class="btn-reset btn contacts__form-btn" type="submit">Заказать</button>
+          </form>
+          <h3 class="text-reset prime-subheading weight-normal contacts__quickly-heading">Связаться в один клик</h3>
+          <div class="contacts__messendgers">
+            <a class="link-reset contacts__messendgers-link" href="#" aria-label="Написать нам в вотсапп">
+              <svg class="contacts__messendgers-icon"><use xlink:href="img/sprite.svg#whatsapp"></use></svg>
+            </a>
+            <a class="link-reset contacts__messendgers-link" href="#" aria-label="Написать нам в телеграм">
+              <svg class="contacts__messendgers-icon"><use xlink:href="img/sprite.svg#telegram"></use></svg>
+            </a>
+          </div>
+        </div>
         <div class="contacts__right">
+          <h3 class="text-reset prime-subheading contacts__subheading-shopname">Шоурум №4</h3>
+          <address class="prime-text contacts__address">Леонтьевский переулок, дом 5/1</address>
           <div class="contacts__map" id="map"></div>
         </div>
       </div>
-      <div class="contacts__box">
-      <div class="container contacts__container">
-        <h2 class="subheading contacts__subheading">Контакты</h2>
-        <h3 class="text-reset prime-subheading contacts__subheading-shopname">Шоурум №4</h3>
-        <address class="prime-text contacts__address">Леонтьевский переулок, дом 5/1</address>
-        <h3 class="text-reset prime-subheading weight-normal contacts__callback-heading">Заказать обратный звонок</h3>
-        <form class="contacts__form" name="form" action="/mail.php" method="post">
-          <div class="contacts__form-elem">
-            <input class="int-reset contacts__input" type="text" name="name" id="contacts__input-name" placeholder="Имя*" data-validate-field="name">
-            <label class="visually-hidden" for="contacts__input-name">Имя</label>
-          </div>
-          <div class="contacts__form-elem">
-            <input class="int-reset contacts__input" type="tel" name="phone" id="contacts__input-phone" placeholder="Телефон*" data-validate-field="tel" inputmode="text">
-            <label class="visually-hidden" for="contacts__input-phone">Телефон</label>
-          </div>
-          <button class="btn-reset btn contacts__form-btn" type="submit">Заказать</button>
-        </form>
-        <h3 class="text-reset prime-subheading weight-normal contacts__quickly-heading">Связаться в один клик</h3>
-        <div class="contacts__messendgers">
-          <a class="link-reset contacts__messendgers-link" href="#" aria-label="Написать нам в вотсапп">
-            <svg class="contacts__messendgers-icon"><use xlink:href="img/sprite.svg#whatsapp"></use></svg>
-          </a>
-          <a class="link-reset contacts__messendgers-link" href="#" aria-label="Написать нам в телеграм">
-            <svg class="contacts__messendgers-icon"><use xlink:href="img/sprite.svg#telegram"></use></svg>
-          </a>
-        </div>
-      </div>
-    </div>
     </section>
   </main>
   <footer class="footer">

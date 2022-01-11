@@ -20,6 +20,7 @@ menuLink.forEach((el) => {
 
 //lazyload
 const lazyLoadInstance = new LazyLoad({});
+
 // search
 
 const btnSearch = document.querySelector('.btn-search-img');
@@ -277,30 +278,6 @@ desctopPublicSlider();
 window.addEventListener('resize', () => {
   desctopPublicSlider();
 });
-
-// new LazyLoad({
-//   elements_selector: ".swiper-lazy",
-//   unobserve_entered: true,
-//   callback_enter: function (swiperElement) {
-//     new Swiper("#" + swiperElement.id, projectsSlider);
-//   }
-// });
-
-// new LazyLoad({
-//   elements_selector: ".swiper-lazy",
-//   unobserve_entered: true,
-//   callback_enter: function (swiperElement) {
-//     new Swiper("#" + swiperElement.id, eventsSlider);
-//   }
-// });
-
-// new LazyLoad({
-//   elements_selector: ".swiper-lazy",
-//   unobserve_entered: true,
-//   callback_enter: function (swiperElement) {
-//     new Swiper("#" + swiperElement.id, mySwiperPublic);
-//   }
-// });
 
 // tooltips
 
